@@ -1,0 +1,16 @@
+{
+    "name": "soma/project",
+    "type": "project",
+    "license": "MIT",
+    "description": "SOMA is a lightweight PHP micro-framework designed to be a flexible and modular base for your future projects.",
+    "homepage": "https://github.com/soma-php/project",
+    "autoload": {
+        "psr-4": {
+            "MyApp\\": "lib/"
+        }
+    },
+    "require": {
+        "php": ">=7.0.0",
+        "soma/soma": "^1.0"
+    }
+}
